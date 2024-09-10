@@ -95,3 +95,5 @@ function_results = {
 json_object = json.dumps(function_results)
 with open("data_project_pt1_results.json", "w") as outfile:
     outfile.write(json_object)
+
+print("howdy")
